@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%; background-color: white;
+}
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3 {
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav i {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+#nav button {
+    font-size: 16px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    background-color: white;
+}
+#btn2 {
+    color: #fff;
+    background-color: orangered;
+    border: none;
+}
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+}
+#btm-ctr {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(49.3% at 50% 100%);
+}
+#btm-ctr>i:hover {
+    color: orangered;
+    transition: 0.2s ease-in-out;
+}
+#btm-right {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    font-size: 17px;
+}
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icons i {
+    font-size: 40px;
+    padding: 5px;
+}
+#icons i:hover {
+    color: orangered;
+    transition: 0.2s ease-in-out;
+}
+#btm-left>i:hover {
+    color: orangered;
+    transition: 0.2s ease-in-out;
+}
+#btm-right>i:hover {
+    color: orangered;
+    transition: 0.2s ease-in-out;
+}
+#btm-left>i {
+    font-size: 40px;
+}
